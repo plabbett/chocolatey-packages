@@ -1,4 +1,4 @@
-# Chocolatey Default Packages
+# Chocolatey Packages
 
 This is a [Chocolatey](https://chocolatey.org) `packages.config` compatible file that I use to install my default applications across Windows computers that I use regularly. 
 
@@ -13,7 +13,7 @@ You can get started with Chocolatey installation by visiting the [official docum
 After cloning the repo or downloading the file, run the following command in an elevated Powershell:
 
 ```powershell
-choco install .\path\to\packages.config
+choco install .\path\to\packages.config -y
 ```
 
 ## Contributions
