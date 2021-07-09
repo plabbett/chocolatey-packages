@@ -16,6 +16,17 @@ After cloning the repo or downloading the file, run the following command in an 
 choco install .\path\to\packages.config -y
 ```
 
+## Export Chocolatey Packages Config File
+
+A simple method to export/update your `packages.config` file with what your system is currently using.
+
+> Credit: [https://gist.github.com/alimbada/449ddf65b4ef9752eff3](#https://gist.github.com/alimbada/449ddf65b4ef9752eff3)
+
+```powershell
+.\export-packages.ps1 > .\packages.config
+```
+
+
 ## Contributions
 
 Have an awesome application you can't live without that's not on my list? I'd love to hear about it! Email me at [patrick@labbett.net](mailto:patrick@labbett.net)
